@@ -23,3 +23,12 @@ module.exports = {
     },
     plugins: [],
   } 
+
+  module.exports = {
+    content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+    theme: {
+      extend: {},
+    },
+    plugins: [require('@tailwindcss/line-clamp')],
+  }
+  
